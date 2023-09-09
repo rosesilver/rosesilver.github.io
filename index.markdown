@@ -27,5 +27,5 @@ Drucker B, Garcia E, Gunawan E, **Silver R**.\
 [Full Version](https://arxiv.org/pdf/2112.03780.pdf)
 
 **Senior Thesis: Triangulations of Cambrian Lattices of Type A**
-[pdf](/files/senior_thesis.pdf)[slides](/files/senior_thesis_slides.pdf)[talk]()
+[pdf](/files/senior_thesis.pdf)[slides](/files/senior_thesis_slides.pdf)[talk](https://www.youtube.com/watch?v=aFhcHNa69WM)
 
