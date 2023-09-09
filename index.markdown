@@ -17,6 +17,8 @@ Besides computer science, my current hobbies include: singing with the Marsh Cha
 
 
 # Research Projects
+Aliakbarpour M, **Silver R**, Steinke T, Ullman J. Differentially Private Medians and Interior Points for Non-Pathalogical Data. (arxiv), 2023. 
 
+Drucker B, Garcia E, Gunawan E, **Silver R**. Box-Ball Systems and RSK Tableaux. \emph{33rd Conference on Formal Power Series and Algebraic Combinatorics {[((arXiv:2209.09277]}, 2022.
 
 
