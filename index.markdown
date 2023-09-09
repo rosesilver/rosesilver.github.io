@@ -24,6 +24,6 @@ Aliakbarpour M, **Silver R**, Steinke T, Ullman J. \
 **Box-Ball Systems and RSK Tableaux**\
 Drucker B, Garcia E, Gunawan E, **Silver R**.\
 *33rd Conference on Formal Power Series and Algebraic Combinatorics, 2022.*\
-[Full Version](arXiv:2209.09277)
+[Full Version](https://arxiv.org/pdf/2112.03780.pdf)https://arxiv.org/pdf/2112.03780.pdf)
 
 
