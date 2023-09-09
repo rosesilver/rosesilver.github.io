@@ -35,17 +35,11 @@ theme: "minima"
 header_pages:
   - index.markdown
   - about.markdown
-  - publications.markdown
-  - math-research.markdown
 
 # header:
 #   pages:
 #     - name: "About"
 #       slug: /about/
-#     - name: "Publications"
-#       slug: /publications/
-#     - name: "Math Research"
-#       slug: /math-research/
 
 footer:
   show_powered_by: true
