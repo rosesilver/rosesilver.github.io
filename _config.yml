@@ -22,11 +22,11 @@ title: Rose Silver
 author: Email
 home_name: Home
 name: Email
-email: fryer.zee@gmail.com
+email: silver.r@northeastern.edu
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "rosesilver.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  zeefryer
+github_username:  rosesilver
 
 # Build settings
 theme: "minima"
@@ -51,11 +51,11 @@ footer:
   show_powered_by: true
   contact:
     - name: Email
-      value: fryer.zee@gmail.com
-      link: mailto:fryer.zee@gmail.com
+      value: silver.r@northeastern.edu
+      link: mailto:silver.r@northeastern.edu
   follow:
     - name: GitHub
-      link: http://github.com/zeefryer
+      link: http://github.com/rosesilver
 
 plugins:
   - jekyll-feed
