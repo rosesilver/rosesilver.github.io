@@ -47,9 +47,6 @@ footer:
     - name: Email
       value: silver.r@northeastern.edu
       link: mailto:silver.r@northeastern.edu
-  follow:
-    - name: GitHub
-      link: http://github.com/rosesilver
 
 plugins:
   - jekyll-feed
