@@ -6,7 +6,7 @@ layout: default
 title: Home
 ---
 
-![Image of a plush stegosaur holding a carboard sign with "Fryer" written on it.](/imgs/stumpy.jpg){:style="float: right;margin-right: 7px;margin-top: 7px;margin-left:30px; margin-bottom:30px;"}
+![profile picture.](/imgs/profile_pic.jpg){:style="float: right;margin-right: 7px;margin-top: 7px;margin-left:30px; margin-bottom:30px;"}
 
 
 # Rose Silver
