@@ -11,7 +11,7 @@ title: Home
 
 # Rose Silver
 
-I am a PhD student in computer science at Northeastern University. I'm interested in algorithms, privacy, and the interplay between theory and practice. My advisor is Jonathan Ullman. I'm a member of the Northeastern Theory Group and the Cryptography and Privacy Group. You can reach me at silver.r@northeastern.edu. 
+I am a PhD student in computer science at Northeastern University. I'm interested in algorithms, privacy, and the interplay between theory and practice. My advisor is [Jonathan Ullman](https://jonathan-ullman.github.io/). I'm a member of Northeastern's [Theory Group](https://www2.ccs.neu.edu/theory/) and [Cryptography and Privacy Group](https://neucrypt.github.io/). You can reach me at silver.r@northeastern.edu. 
 
 Besides computer science, my current hobbies include: singing with the Marsh Chapel Choir, learning Spanish, and discovering the best cafes in Boston.
 
