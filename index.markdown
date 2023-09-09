@@ -26,4 +26,6 @@ Drucker B, Garcia E, Gunawan E, **Silver R**.\
 *33rd Conference on Formal Power Series and Algebraic Combinatorics, 2022.*\
 [Full Version](https://arxiv.org/pdf/2112.03780.pdf)
 
+**Senior Thesis: Triangulations of Cambrian Lattices of Type A**
+[pdf](/files/senior_thesis.pdf)[slides](/files/senior_thesis_slides.pdf)[talk]()
 
