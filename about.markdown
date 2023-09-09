@@ -6,6 +6,4 @@ permalink: /about/
 
 # About
 
-##  Rose Silver
-Markdown testing
-**bold**
+This is a page called `about'. 
