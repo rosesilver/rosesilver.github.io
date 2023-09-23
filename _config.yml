@@ -34,7 +34,7 @@ theme: "minima"
 
 header_pages:
   - index.markdown
-  - about.markdown
+# - about.markdown
 
 # header:
 #   pages:
