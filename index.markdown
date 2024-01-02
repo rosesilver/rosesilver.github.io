@@ -17,13 +17,12 @@ Besides computer science, my current hobbies include: singing with the Marsh Cha
 
 
 # Research Projects
-**Differentially Private Medians and Interior Points for Non-Pathalogical Data**\
+**Differentially Private Medians and Interior Points for Non-Pathalogical Data (ITCS'24)**\
 Aliakbarpour M, **Silver R**, Steinke T, Ullman J. \
 [[Full Version]](https://arxiv.org/pdf/2305.13440.pdf) 
 
-**Box-Ball Systems and RSK Tableaux**\
+**Box-Ball Systems and RSK Tableaux (FPSAC'22)**\
 Drucker B, Garcia E, Gunawan E, **Silver R**.\
-*33rd Conference on Formal Power Series and Algebraic Combinatorics, 2022.*\
 [[Full Version]](https://arxiv.org/pdf/2112.03780.pdf)
 
 **Senior Thesis: Triangulations of Cambrian Lattices of Type A**\
