@@ -41,12 +41,12 @@ header_pages:
 #     - name: "About"
 #       slug: /about/
 
-footer:
-  show_powered_by: true
-  contact:
-    - name: Email
-      value: silver.r@northeastern.edu
-      link: mailto:silver.r@northeastern.edu
+#footer:
+#  show_powered_by: true
+#  contact:
+#    - name: Email
+#      value: silver.r@northeastern.edu
+#      link: mailto:silver.r@northeastern.edu
 
 plugins:
   - jekyll-feed
