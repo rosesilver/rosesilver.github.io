@@ -17,6 +17,8 @@ Besides computer science, my current hobbies include: singing with the Marsh Cha
 
 
 # Research Projects
+*Note:  In theoretical computer science, it is customary to sort the authors of each paper alphabetically.*
+
 **Differentially Private Medians and Interior Points for Non-Pathalogical Data (ITCS'24)**\
 Aliakbarpour M, **Silver R**, Steinke T, Ullman J. \
 [[Full Version]](https://arxiv.org/pdf/2305.13440.pdf) 
