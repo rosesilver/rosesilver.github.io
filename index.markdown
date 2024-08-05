@@ -25,7 +25,7 @@ Agarwal S, Kamath G, Majid M, Mouzakis A, **Silver R**, Ullman J.\
 
 **Differentially Private Medians and Interior Points for Non-Pathalogical Data (ITCS'24)**\
 Aliakbarpour M, **Silver R**, Steinke T, Ullman J. \
-[[Full Version]](https://arxiv.org/pdf/2305.13440.pdf) 
+[[Full Version]](https://arxiv.org/pdf/2305.13440.pdf)[[Talk]](https://www.youtube.com/watch?v=4hh1BTVpdyU) 
 
 **Box-Ball Systems and RSK Tableaux (FPSAC'22)**\
 Drucker B, Garcia E, Gunawan E, **Silver R**.\
