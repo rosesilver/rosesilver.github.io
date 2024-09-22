@@ -11,10 +11,7 @@ title: Home
 
 # Rose Silver
 
-I am a PhD student in computer science at Northeastern University. I'm interested in algorithms, privacy, and the interplay between theory and practice. My advisor is [Jonathan Ullman](https://jonathan-ullman.github.io/). I'm a member of Northeastern's [Theory Group](https://www2.ccs.neu.edu/theory/) and [Cryptography and Privacy Group](https://neucrypt.github.io/). You can reach me at silver.r@northeastern.edu. 
-
-Besides computer science, my current hobbies include: singing with the Marsh Chapel Choir, learning Spanish, and discovering the best cafes in Boston.
-
+I am a PhD student in computer science at Carnegie Mellon University, advised by [Elaine Shi](http://elaineshi.com/) and [Jonathan Ullman](https://jonathan-ullman.github.io/). I'm interested in algorithms, privacy, and the interplay between theory and practice. You can reach me at rosesilv [at] cs.cmu.edu.
 
 # Research Projects
 *Note:  In theoretical computer science, it is customary to sort the authors of each paper alphabetically.*
