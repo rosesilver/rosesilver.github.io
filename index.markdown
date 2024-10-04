@@ -16,7 +16,7 @@ I am a PhD student in computer science at Carnegie Mellon University, advised by
 # Research Projects
 *Note:  In theoretical computer science, it is customary to sort the authors of each paper alphabetically.*
 
-**Private Mean Estimation with Person-Level Differential Privacy**\
+**Private Mean Estimation with Person-Level Differential Privacy (SODA '25)**\
 Agarwal S, Kamath G, Majid M, Mouzakis A, **Silver R**, Ullman J.\
 [[Full Version]](https://arxiv.org/pdf/2405.20405) 
 
