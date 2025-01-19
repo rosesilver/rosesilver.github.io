@@ -13,6 +13,8 @@ title: Home
 
 I am a PhD student in computer science at Carnegie Mellon University, advised by [Elaine Shi](http://elaineshi.com/) and [Jonathan Ullman](https://jonathan-ullman.github.io/). I'm interested in algorithms, privacy, and the interplay between theory and practice. You can reach me at rosesilv [at] cs.cmu.edu.
 
+You can find my CV [here](/rosesilver-cv.pdf)
+
 # Research Projects
 *Note:  In theoretical computer science, it is customary to sort the authors of each paper alphabetically.*
 
