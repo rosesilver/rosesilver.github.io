@@ -1,0 +1,15 @@
+---
+---
+@import "minima";
+@import url("/assets/css/dark-academia.css");
+
+/* Ensure sticky header applies after theme rules */
+.site-header {
+  position: sticky !important;
+  top: 0;
+  z-index: 1000;
+  background: var(--bg);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.14);
+}
+
+

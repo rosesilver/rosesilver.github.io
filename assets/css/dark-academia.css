@@ -1,0 +1,164 @@
+/* Dark Academia Theme */
+
+:root {
+  /* Light parchment palette for dark text readability */
+  --bg: #f6f3ee;
+  --bg-elev: #f0ece6;
+  --surface: #ebe5dc;
+  --text: #1b1b1b; /* dark text */
+  --muted: #5c5345; /* subdued labels */
+  --link: #6f4e2f; /* bronze-brown */
+  --link-hover: #8b6736;
+  --accent: #8b5e34;
+  --border: rgba(0, 0, 0, 0.12);
+  --shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+body {
+  font-family: "Crimson Text", Georgia, "Times New Roman", serif;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  color: var(--text);
+  letter-spacing: 0.2px;
+  margin-top: 1.2em;
+  margin-bottom: 0.4em;
+}
+
+h1 { font-weight: 700; font-size: 2.2rem; }
+h2 { font-weight: 600; font-size: 1.8rem; }
+h3 { font-weight: 600; font-size: 1.4rem; }
+
+p, li { color: var(--text); }
+
+em, i { color: var(--muted); }
+
+a {
+  color: var(--link) !important; /* ensure override of Minima default */
+  text-decoration: none;
+  position: relative;
+  transition: color 160ms ease;
+}
+
+/* Normalize visited state to match the theme palette */
+a:visited { color: var(--link) !important; }
+a:visited:hover { color: var(--link-hover) !important; }
+
+/* Remove animated underline */
+a::after { display: none !important; }
+
+a:hover { color: var(--link-hover) !important; }
+
+/* Ensure no default underline on hover */
+a:hover { text-decoration: none !important; }
+
+/* Layout wrappers from Minima */
+.wrapper {
+  max-width: 900px;
+}
+
+/* Header / Nav (Minima provides .site-header/.site-nav) */
+.site-header {
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.14);
+}
+
+.site-header .site-title, .site-header .page-link {
+  color: var(--text) !important;
+}
+
+/* Match header name to page H1 font */
+.site-title, .site-title:visited {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 700;
+}
+
+.site-header .page-link {
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+.site-header .page-link:hover {
+  background: var(--surface);
+}
+
+/* Images */
+img {
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Horizontal rules */
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+}
+
+/* Cards for concerts */
+.concert-list { margin-top: 10px; }
+
+.concert {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+}
+
+.concert h3 a { color: var(--text); }
+.concert h3 a:hover { color: var(--link-hover); }
+
+.concert p strong { color: var(--muted); }
+
+/* Footer (theme default may render one) */
+.site-footer {
+  background: transparent;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+}
+
+/* Code / pre (in case) */
+code, pre { background: #f2efe9; color: #2b241b; }
+
+/* Blockquotes for visual callouts */
+blockquote {
+  border-left: 3px solid var(--accent);
+  padding: 0.5rem 1rem;
+  color: var(--muted);
+  background: var(--surface);
+  border-radius: 6px;
+  margin: 1rem 0;
+}
+
+/* Section banding helper */
+.band {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.band + .band { margin-top: 1.25rem; }
+
+/* (Reverted) header/footer shadows removed */
+
+/* (Reverted) content panel wrapper removed */
+
+/* (Reverted) h2 underline removed */
+
+

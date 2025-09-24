@@ -3,19 +3,21 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Research
+title: Computer Science
 ---
 
-![profile picture.](/assets/images/profile_pic.jpg){:style="float: right;margin-right: 7px;margin-top: 7px;margin-left:30px; margin-bottom:30px;"}
+![profile picture.](/assets/images/profile_pic.jpg){:style="float: left;margin-left: 7px;margin-top: 7px;margin-right:30px; margin-bottom:30px;"}
 
 
-# Rose Silver - PhD Student
+# Rose Silver, PhD Student
 
 Rose is a PhD student in computer science at Carnegie Mellon University, advised by [Elaine Shi](http://elaineshi.com/) and [Jonathan Ullman](https://jonathan-ullman.github.io/). Her research focuses on algorithms, privacy, and the interplay between theory and practice. She can be reached at rosesilv [at] cs.cmu.edu.
 
 View her (out-of-date) CV [here](/assets/documents/rosesilver-cv.pdf).
 
-# Research Projects
+<div style="clear: both;"></div>
+
+# Research
 *Note:  In theoretical computer science, it is customary to sort the authors of each paper alphabetically.*
 
 **Decentralized Data Archival: New Definitions and Constructions (Under Submission)**\
