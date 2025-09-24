@@ -3,20 +3,28 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Home
+title: Research
 ---
 
 ![profile picture.](/imgs/profile_pic.jpg){:style="float: right;margin-right: 7px;margin-top: 7px;margin-left:30px; margin-bottom:30px;"}
 
 
-# Rose Silver
+# Rose Silver - PhD Student
 
-I am a PhD student in computer science at Carnegie Mellon University, advised by [Elaine Shi](http://elaineshi.com/) and [Jonathan Ullman](https://jonathan-ullman.github.io/). I'm interested in algorithms, privacy, and the interplay between theory and practice. You can reach me at rosesilv [at] cs.cmu.edu.
+Rose is a PhD student in computer science at Carnegie Mellon University, advised by [Elaine Shi](http://elaineshi.com/) and [Jonathan Ullman](https://jonathan-ullman.github.io/). Her research focuses on algorithms, privacy, and the interplay between theory and practice. She can be reached at rosesilv [at] cs.cmu.edu.
 
-You can find my CV [here](/rosesilver-cv.pdf)
+View her (out-of-date) CV [here](/rosesilver-cv.pdf).
 
 # Research Projects
 *Note:  In theoretical computer science, it is customary to sort the authors of each paper alphabetically.*
+
+**Decentralized Data Archival: New Definitions and Constructions (Under Submission)**\
+Shi E, **Silver R**, Mu C.\
+*Note: Authors listed in randomized order.*\
+[[Full Version]](https://eprint.iacr.org/2025/969) 
+
+**History Independent Load Balancing (Under Submission)**\
+Bender M, Kuszmaul W, Shi E, **Silver R.**
 
 **Private Mean Estimation with Person-Level Differential Privacy (SODA '25)**\
 Agarwal S, Kamath G, Majid M, Mouzakis A, **Silver R**, Ullman J.\

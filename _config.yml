@@ -35,6 +35,8 @@ theme: "minima"
 header_pages:
   - index.markdown
 # - about.markdown
+  - music.markdown
+# - about.markdown
 
 # header:
 #   pages:
