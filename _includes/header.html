@@ -20,10 +20,23 @@
         </label>
 
         <div class="trigger">
+          <!-- Static Computer Science dropdown tab -->
+          <div class="nav-item dropdown">
+            <input type="checkbox" id="cs-toggle-static" class="dropdown-toggle" />
+            <label for="cs-toggle-static" class="page-link is-parent">Computer Science<span class="chevron" aria-hidden="true">▾</span></label>
+            <div class="dropdown-menu">
+              <a class="page-link" href="{{ "/cs.html" | relative_url }}">About</a>
+              <a class="page-link" href="{{ "/assets/documents/Rose_CV.pdf" | relative_url }}" target="_blank" rel="noopener">CV</a>
+            </div>
+          </div>
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
-              {%- if my_page.title == "Music" -%}
+              {%- if my_page.title == "Home" -%}
+                {%- comment -%} skip Home in the header tabs {%- endcomment -%}
+              {%- elsif my_page.title == "Computer Science" -%}
+                {# skip CS here to avoid duplicate; we render a static CS tab above #}
+              {%- elsif my_page.title == "Music" -%}
                 <div class="nav-item dropdown">
                   <input type="checkbox" id="music-toggle" class="dropdown-toggle" />
                   <label for="music-toggle" class="page-link is-parent">{{ my_page.title | escape }}<span class="chevron" aria-hidden="true">▾</span></label>
