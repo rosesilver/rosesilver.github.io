@@ -18,28 +18,45 @@ View her (out-of-date) CV [here](/assets/documents/rosesilver-cv.pdf).
 <div style="clear: both;"></div>
 
 # Research
-*Note:  In theoretical computer science, it is customary to sort the authors of each paper alphabetically.*
+<div class="research-note">Note: In theoretical computer science, it is customary to sort the authors of each paper alphabetically.</div>
 
-**Decentralized Data Archival: New Definitions and Constructions (Under Submission)**\
-Shi E, **Silver R**, Mu C.\
-*Note: Authors listed in randomized order.*\
-[[Full Version]](https://eprint.iacr.org/2025/969) 
 
-**History Independent Load Balancing (Under Submission)**\
-Bender M, Kuszmaul W, Shi E, **Silver R**.
 
-**Private Mean Estimation with Person-Level Differential Privacy (SODA '25)**\
-Agarwal S, Kamath G, Majid M, Mouzakis A, **Silver R**, Ullman J.\
-[[Full Version]](https://arxiv.org/pdf/2405.20405) 
+<!-- Option A: Two-line compact -->
+<div class="paper-list">
+<div class="paper">
+  <div class="title">History Independent Load Balancing</div>
+  <div class="paper-meta">under submission • <a href="https://www3.cs.stonybrook.edu/~bender/">Bender</a>; <a href="https://sites.google.com/site/williamkuszmaul">Kuszmaul</a>; <a href="https://elaineshi.com/">Shi</a>; <b>Silver</b></div>
+</div>
 
-**Differentially Private Medians and Interior Points for Non-Pathological Data (ITCS'24)**\
-Aliakbarpour M, **Silver R**, Steinke T, Ullman J. \
-[[Full Version]](https://arxiv.org/pdf/2305.13440.pdf) [[Slides]](/assets/documents/talk-long.pdf) [[Talk]](https://www.youtube.com/watch?v=4hh1BTVpdyU)
+<div class="paper">
+  <div class="title">Decentralized Data Archival: New Definitions and Constructions</div>
+  <div class="paper-meta">under submission • <a href="https://elaineshi.com/">Shi</a>; <b>Silver</b>; <a href="https://changrui-mu.github.io/">Mu</a> — authors listed in randomized order</div>
+  <div class="links"><a href="https://eprint.iacr.org/2025/969">PDF</a></div>
+</div>
 
-**Box-Ball Systems and RSK Tableaux (FPSAC'22)**\
-Drucker B, Garcia E, Gunawan E, **Silver R**.\
-[[Full Version]](https://arxiv.org/pdf/2112.03780.pdf)
+<div class="paper">
+  <div class="title">Private Mean Estimation with Person-Level Differential Privacy</div>
+  <div class="paper-meta">SODA ’25 • <a href="https://sushaga.github.io/">Agarwal</a>; <a href="http://www.gautamkamath.com/">Kamath</a>; <a href="https://www.mahbodmajid.com/">Majid</a>; <a href="https://argymouz.github.io/">Mouzakis</a>; <b>Silver</b>; <a href="https://jonathan-ullman.github.io/index.html">Ullman</a></div>
+  <div class="links"><a href="https://arxiv.org/pdf/2405.20405">PDF</a></div>
+</div>
+<!-- Rest of the papers (Option A style) -->
+<div class="paper">
+  <div class="title">Differentially Private Medians and Interior Points for Non-Pathological Data</div>
+  <div class="paper-meta">ITCS ’24 • <a href="https://maryamaliakbarpour.com/">Aliakbarpour</a>; <b>Silver</b>; <a href="https://www.thomas-steinke.net/">Steinke</a>; <a href="https://jonathan-ullman.github.io/index.html">Ullman</a></div>
+  <div class="links"><a href="https://arxiv.org/pdf/2305.13440.pdf">PDF</a> <a href="/assets/documents/talk-long.pdf">Slides</a> <a href="https://www.youtube.com/watch?v=4hh1BTVpdyU">Talk</a></div>
+</div>
 
-**Senior Thesis: Triangulations of Cambrian Lattices of Type A**\
-[[Full Version]](/assets/documents/senior_thesis.pdf) [[Slides]](/assets/documents/senior_thesis_slides.pdf) [[Talk]](https://www.youtube.com/watch?v=aFhcHNa69WM)
+<div class="paper">
+  <div class="title">Box-Ball Systems and RSK Tableaux</div>
+  <div class="paper-meta">FPSAC ’22 • Drucker; Garcia; <a href="https://egunawan.github.io/">Gunawan</a>; Rumbolt; <b>Silver</b></div>
+  <div class="links"><a href="https://arxiv.org/pdf/2112.03780.pdf">PDF</a></div>
+</div>
+
+<div class="paper">
+  <div class="title">Senior Thesis: Triangulations of Cambrian Lattices of Type A</div>
+  <div class="links"><a href="/assets/documents/senior_thesis.pdf">PDF</a> <a href="/assets/documents/senior_thesis_slides.pdf">Slides</a> <a href="https://www.youtube.com/watch?v=aFhcHNa69WM">Talk</a></div>
+</div>
+
+</div>
 
