@@ -32,7 +32,7 @@ Bender M, Kuszmaul W, Shi E, **Silver R**.
 Agarwal S, Kamath G, Majid M, Mouzakis A, **Silver R**, Ullman J.\
 [[Full Version]](https://arxiv.org/pdf/2405.20405) 
 
-**Differentially Private Medians and Interior Points for Non-Pathalogical Data (ITCS'24)**\
+**Differentially Private Medians and Interior Points for Non-Pathological Data (ITCS'24)**\
 Aliakbarpour M, **Silver R**, Steinke T, Ullman J. \
 [[Full Version]](https://arxiv.org/pdf/2305.13440.pdf) [[Slides]](/assets/documents/talk-long.pdf) [[Talk]](https://www.youtube.com/watch?v=4hh1BTVpdyU)
 
