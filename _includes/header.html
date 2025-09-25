@@ -36,7 +36,7 @@
               {%- if my_page.title == "Home" -%}
                 {%- comment -%} skip Home in the header tabs {%- endcomment -%}
               {%- elsif my_page.title == "Computer Science" -%}
-                {# skip CS here to avoid duplicate; we render a static CS tab above #}
+                {%- comment -%} skip CS here to avoid duplicate; we render a static CS tab above {%- endcomment -%}
               {%- elsif my_page.title == "Music" -%}
                 <div class="nav-item dropdown">
                   <input type="checkbox" id="music-toggle" class="dropdown-toggle" />
