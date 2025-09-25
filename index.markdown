@@ -7,6 +7,8 @@ title: Home
 ---
 
 
+<div class="home-landing" markdown="1">
+
 ## Rose Silver
 
 ![Portrait of Rose Silver](/assets/images/profile_pic.jpg){:class="profile-photo" width="240" height="240"}
@@ -15,4 +17,6 @@ title: Home
 
 - [Computer Science]({{ "/cs.html" | relative_url }})
 - [Music]({{ "/music.html" | relative_url }})
+
+</div>
 

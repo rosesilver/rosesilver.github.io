@@ -299,6 +299,12 @@ blockquote {
   .nav-item .is-parent { pointer-events: auto; cursor: pointer; }
 }
 
+/* Center the simple home landing content */
+.home-landing { text-align: center; }
+.home-landing .profile-photo { margin: 12px auto 16px !important; float: none !important; }
+.home-landing ul { list-style: disc; padding-left: 24px; display: inline-block; text-align: left; }
+.home-landing li { display: list-item; margin: 6px 0; }
+
 /* Research paper preview styles */
 .paper-list { margin-top: 0; }
 .paper { margin-bottom: 14px; }
