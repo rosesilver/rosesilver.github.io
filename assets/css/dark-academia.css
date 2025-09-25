@@ -7,8 +7,8 @@
   --surface: #ebe5dc;
   --text: #1b1b1b; /* dark text */
   --muted: #5c5345; /* subdued labels */
-  --link: #6f4e2f; /* bronze-brown */
-  --link-hover: #8b6736;
+  --link: #b26a1b; /* warmer brown-orange */
+  --link-hover: #d07a1c;
   --accent: #8b5e34;
   --border: rgba(0, 0, 0, 0.12);
   --shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
@@ -103,6 +103,8 @@ a:hover { text-decoration: none !important; }
 
 /* Dropdown styles */
 .nav-item.dropdown { position: relative; display: inline-block; }
+.dropdown-toggle { display: none; }
+.nav-item .chevron { display: none; }
 .nav-item .dropdown-menu {
   position: absolute;
   left: 0;
@@ -138,6 +140,20 @@ a:hover { text-decoration: none !important; }
   pointer-events: auto;
 }
 
+/* Mobile toggle behavior */
+@media screen and (max-width: 700px) {
+  .nav-item.dropdown { display: block; }
+  .nav-item .chevron { float: right; opacity: 0.7; }
+  .dropdown-toggle { display: none; }
+  .dropdown-toggle ~ .dropdown-menu { display: none; }
+  .dropdown-toggle:checked ~ .dropdown-menu { display: block; }
+}
+
+/* Parent label styling */
+.nav-item .is-parent {
+  cursor: default;
+}
+
 .site-header .page-link:hover {
   background: var(--surface);
 }
@@ -170,12 +186,8 @@ hr {
 
 .concert p strong { color: var(--muted); }
 
-/* Footer (theme default may render one) */
-.site-footer {
-  background: transparent;
-  border-top: 1px solid var(--border);
-  color: var(--muted);
-}
+/* Hide footer site-wide */
+.site-footer { display: none !important; }
 
 /* Code / pre (in case) */
 code, pre { background: #f2efe9; color: #2b241b; }
@@ -208,3 +220,62 @@ blockquote {
 /* (Reverted) h2 underline removed */
 
 
+/* Responsive tweaks */
+@media screen and (max-width: 700px) {
+  /* Make nav links and submenu easy to tap */
+  .site-nav .page-link { display: block; padding: 12px 16px; }
+
+  /* Panel-style mobile menu similar to reference */
+  .site-nav {
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.10);
+  }
+  .site-nav .trigger { padding: 6px 0; }
+  .site-nav .page-link + .page-link { border-top: 1px solid var(--border); }
+
+  /* Mobile submenu is inline and collapsed until toggled */
+  .nav-item .dropdown-menu {
+    position: static;
+    display: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    background: transparent;
+    min-width: 0;
+    border-top: 1px solid var(--border); /* separator between parent and submenu */
+    padding-top: 4px;
+  }
+
+  .nav-item .dropdown-menu .page-link { padding-left: 24px; }
+  .nav-item .dropdown-menu .page-link + .page-link { border-top: 0; } /* no line between submenu items */
+
+  /* Stack profile photo below title; remove float on small screens */
+  .profile-photo { float: none !important; display: block; margin: 10px 0 16px 0 !important; width: 100% !important; height: auto !important; }
+
+  /* Stack concert entries and make posters full-width */
+  .concert { padding: 12px 0; }
+  .concert img {
+    float: none !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 0 12px 0 !important;
+  }
+
+  /* Slightly adjust type scale for small screens */
+  h1 { font-size: 1.8rem; }
+  h2 { font-size: 1.4rem; }
+
+  /* Show chevron and enable tap-to-toggle */
+  .nav-item .chevron { display: inline-block; margin-left: 6px; }
+  .dropdown-toggle ~ .dropdown-menu { display: none; }
+  .dropdown-toggle:checked ~ .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    pointer-events: auto;
+  }
+  /* Allow tapping the parent label */
+  .nav-item .is-parent { pointer-events: auto; cursor: pointer; }
+}

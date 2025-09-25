@@ -25,10 +25,11 @@
             {%- if my_page.title -%}
               {%- if my_page.title == "Music" -%}
                 <div class="nav-item dropdown">
-                  <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                  <input type="checkbox" id="music-toggle" class="dropdown-toggle" />
+                  <label for="music-toggle" class="page-link is-parent">{{ my_page.title | escape }}<span class="chevron" aria-hidden="true">▾</span></label>
                   <div class="dropdown-menu">
-                    <a class="page-link" href="{{ "/music/about/" | relative_url }}">About</a>
-                    <a class="page-link" href="{{ "/music/engagements/" | relative_url }}">Upcoming Engagements</a>
+                    <a class="page-link" href="{{ "/music/about/" | relative_url }}">Bio</a>
+                    <a class="page-link" href="{{ "/music/engagements/" | relative_url }}">Upcoming Performances</a>
                   </div>
                 </div>
               {%- else -%}

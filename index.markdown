@@ -6,10 +6,10 @@ layout: default
 title: Computer Science
 ---
 
-![profile picture.](/assets/images/profile_pic.jpg){:style="float: left;margin-left: 7px;margin-top: 7px;margin-right:30px; margin-bottom:30px;"}
-
 
 # Rose Silver, PhD Student
+
+![profile picture.](/assets/images/profile_pic.jpg){:class="profile-photo" style="float: left;margin-left: 7px;margin-top: 7px;margin-right:30px; margin-bottom:30px;"}
 
 Rose is a PhD student in computer science at Carnegie Mellon University, advised by [Elaine Shi](http://elaineshi.com/) and [Jonathan Ullman](https://jonathan-ullman.github.io/). Her research focuses on algorithms, privacy, and the interplay between theory and practice. She can be reached at rosesilv [at] cs.cmu.edu.
 
@@ -26,7 +26,7 @@ Shi E, **Silver R**, Mu C.\
 [[Full Version]](https://eprint.iacr.org/2025/969) 
 
 **History Independent Load Balancing (Under Submission)**\
-Bender M, Kuszmaul W, Shi E, **Silver R.**
+Bender M, Kuszmaul W, Shi E, **Silver R**.
 
 **Private Mean Estimation with Person-Level Differential Privacy (SODA '25)**\
 Agarwal S, Kamath G, Majid M, Mouzakis A, **Silver R**, Ullman J.\
