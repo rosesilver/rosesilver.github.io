@@ -164,6 +164,9 @@ img {
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }
 
+/* Desktop profile image sizing */
+.profile-photo { width: 180px; height: auto; }
+
 /* Horizontal rules */
 hr {
   border: none;
@@ -181,10 +184,23 @@ hr {
   padding: 0;
 }
 
+/* Faint divider between performances */
+.concert + .concert {
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+  margin-top: 12px;
+}
+
+
+
 .concert h3 a { color: var(--text); }
 .concert h3 a:hover { color: var(--link-hover); }
 
 .concert p strong { color: var(--muted); }
+
+/* Slightly smaller text within concert cards (override inline sizes) */
+.concert h3 { font-size: 1.3em !important; }
+.concert p { font-size: 1.05em !important; }
 
 /* Hide footer site-wide */
 .site-footer { display: none !important; }
@@ -254,7 +270,10 @@ blockquote {
   .profile-photo { float: none !important; display: block; margin: 10px 0 16px 0 !important; width: 100% !important; height: auto !important; }
 
   /* Stack concert entries and make posters full-width */
-  .concert { padding: 12px 0; }
+  .concert {
+    padding: 12px 0;
+    grid-template-columns: 1fr;
+  }
   .concert img {
     float: none !important;
     width: 100% !important;
