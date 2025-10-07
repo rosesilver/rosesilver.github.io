@@ -23,7 +23,7 @@ She can be reached at rosesilv [at] cs.cmu.edu.
 <div class="paper-list">
 <div class="paper">
   <div class="title">History Independent Load Balancing</div>
-  <div class="paper-meta">under submission • <a href="https://www3.cs.stonybrook.edu/~bender/">Bender</a>; <a href="https://sites.google.com/site/williamkuszmaul">Kuszmaul</a>; <a href="https://elaineshi.com/">Shi</a>; <b>Silver</b></div>
+  <div class="paper-meta"> SODA '26 • <a href="https://www3.cs.stonybrook.edu/~bender/">Bender</a>; <a href="https://sites.google.com/site/williamkuszmaul">Kuszmaul</a>; <a href="https://elaineshi.com/">Shi</a>; <b>Silver</b></div>
 </div>
 
 <div class="paper">
