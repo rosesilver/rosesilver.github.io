@@ -3,11 +3,61 @@ layout: default
 title: Upcoming Performances
 permalink: /music/engagements/
 ---
-
-# Upcoming Performances
+## Upcoming Engagements
 
 <div class="concert-list">
 
+  <article class="concert" style="margin: 18px 0;">
+    <a href="https://pittsburghcamerata.org/events/" target="_blank" rel="noopener">
+      <img src="/assets/images/cabaret.png" alt="Pittsburgh Camerata concert poster" style="width:300px;height:auto;border-radius:4px;margin-right:20px; float:left;">
+    </a>
+    <div style="overflow:hidden;">
+      <h3 style="margin-top:0; font-size: 1.6em;">
+        <a href="https://pittsburghcamerata.org/events/" target="_blank" rel="noopener">Pittsburgh Camerata: Camerata Cabaret</a>
+      </h3>
+        <p style="font-size: 1.2em;"><strong>Location:</strong> Pittsburgh Golf Club</p>
+        <p style="font-size: 1.2em;"><strong>Address:</strong> Pittsburgh, PA</p>
+      <p style="font-size: 1.2em;"><strong>Date:</strong> October 28th, 2025</p>
+      <p style="font-size: 1.2em;"><strong>Time:</strong> 5:30pm ET</p>
+    </div>
+    <div style="clear:both;"></div>
+  </article>
+
+  <article class="concert" style="margin: 18px 0;">
+    <a href="https://pittsburghcamerata.org/events/" target="_blank" rel="noopener">
+      <img src="/assets/images/christmas.png" alt="Pittsburgh Camerata concert poster" style="width:300px;height:auto;border-radius:4px;margin-right:20px; float:left;">
+    </a>
+    <div style="overflow:hidden;">
+      <h3 style="margin-top:0; font-size: 1.6em;">
+        <a href="https://pittsburghcamerata.org/events/" target="_blank" rel="noopener">Pittsburgh Camerata: Christmas with the Camerata</a>
+      </h3>
+        <p style="font-size: 1.2em;"><strong>Location:</strong> St. Andrew’s Episcopal Church</p>
+        <p style="font-size: 1.2em;"><strong>Address:</strong> 5801 Hampton St, Pittsburgh, PA 15206</p>
+      <p style="font-size: 1.2em;"><strong>Date:</strong> December 5th, 2025</p>
+      <p style="font-size: 1.2em;"><strong>Time:</strong> 7:30pm ET</p>
+    </div>
+    <div style="clear:both;"></div>
+  </article>
+
+  <article class="concert" style="margin: 18px 0;">
+    <a href="https://pittsburghcamerata.org/events/" target="_blank" rel="noopener">
+      <img src="/assets/images/christmas.png" alt="Pittsburgh Camerata concert poster" style="width:300px;height:auto;border-radius:4px;margin-right:20px; float:left;">
+    </a>
+    <div style="overflow:hidden;">
+      <h3 style="margin-top:0; font-size: 1.6em;">
+        <a href="https://pittsburghcamerata.org/events/" target="_blank" rel="noopener">Pittsburgh Camerata: Christmas with the Camerata</a>
+      </h3>
+        <p style="font-size: 1.2em;"><strong>Location:</strong> Shadyside Presbyterian Church</p>
+        <p style="font-size: 1.2em;"><strong>Address:</strong> 5121 Westminster Pl, Pittsburgh, PA 15232</p>
+      <p style="font-size: 1.2em;"><strong>Date:</strong> December 7th, 2025</p>
+      <p style="font-size: 1.2em;"><strong>Time:</strong> 3pm ET</p>
+    </div>
+    <div style="clear:both;"></div>
+  </article>
+</div>
+
+## Past Events
+<div class="concert-list">
   <article class="concert" style="margin: 18px 0;">
     <a href="https://www.facebook.com/events/735-commonwealth-avenue-boston-ma-united-states-massachusetts-02215/how-can-i-keep-from-singing-marsh-chapel-choir-reunion-concert/1332535558452085/" target="_blank" rel="noopener">
       <img src="/assets/images/marsh.jpg" alt="Marsh Chapel Choir Reunion Concert poster" style="width:300px;height:auto;border-radius:4px;margin-right:20px; float:left;">
@@ -57,54 +107,4 @@ permalink: /music/engagements/
     <div style="clear:both;"></div>
   </article>
 
-  <article class="concert" style="margin: 18px 0;">
-    <a href="https://pittsburghcamerata.org/events/" target="_blank" rel="noopener">
-      <img src="/assets/images/cabaret.png" alt="Pittsburgh Camerata concert poster" style="width:300px;height:auto;border-radius:4px;margin-right:20px; float:left;">
-    </a>
-    <div style="overflow:hidden;">
-      <h3 style="margin-top:0; font-size: 1.6em;">
-        <a href="https://pittsburghcamerata.org/events/" target="_blank" rel="noopener">Pittsburgh Camerata: Camerata Cabaret</a>
-      </h3>
-        <p style="font-size: 1.2em;"><strong>Location:</strong> Pittsburgh Golf Club</p>
-        <p style="font-size: 1.2em;"><strong>Address:</strong> Pittsburgh, PA</p>
-      <p style="font-size: 1.2em;"><strong>Date:</strong> October 28th, 2025</p>
-      <p style="font-size: 1.2em;"><strong>Time:</strong> 5:30pm ET</p>
-    </div>
-    <div style="clear:both;"></div>
-  </article>
-
-  <article class="concert" style="margin: 18px 0;">
-    <a href="https://pittsburghcamerata.org/events/" target="_blank" rel="noopener">
-      <img src="/assets/images/christmas.png" alt="Pittsburgh Camerata concert poster" style="width:300px;height:auto;border-radius:4px;margin-right:20px; float:left;">
-    </a>
-    <div style="overflow:hidden;">
-      <h3 style="margin-top:0; font-size: 1.6em;">
-        <a href="https://pittsburghcamerata.org/events/" target="_blank" rel="noopener">Pittsburgh Camerata: Christmas with the Camerata</a>
-      </h3>
-        <p style="font-size: 1.2em;"><strong>Location:</strong> St. Andrew’s Episcopal Church</p>
-        <p style="font-size: 1.2em;"><strong>Address:</strong> 5801 Hampton St, Pittsburgh, PA 15206</p>
-      <p style="font-size: 1.2em;"><strong>Date:</strong> December 5th, 2025</p>
-      <p style="font-size: 1.2em;"><strong>Time:</strong> 7:30pm ET</p>
-    </div>
-    <div style="clear:both;"></div>
-  </article>
-
-  <article class="concert" style="margin: 18px 0;">
-    <a href="https://pittsburghcamerata.org/events/" target="_blank" rel="noopener">
-      <img src="/assets/images/christmas.png" alt="Pittsburgh Camerata concert poster" style="width:300px;height:auto;border-radius:4px;margin-right:20px; float:left;">
-    </a>
-    <div style="overflow:hidden;">
-      <h3 style="margin-top:0; font-size: 1.6em;">
-        <a href="https://pittsburghcamerata.org/events/" target="_blank" rel="noopener">Pittsburgh Camerata: Christmas with the Camerata</a>
-      </h3>
-        <p style="font-size: 1.2em;"><strong>Location:</strong> Shadyside Presbyterian Church</p>
-        <p style="font-size: 1.2em;"><strong>Address:</strong> 5121 Westminster Pl, Pittsburgh, PA 15232</p>
-      <p style="font-size: 1.2em;"><strong>Date:</strong> December 7th, 2025</p>
-      <p style="font-size: 1.2em;"><strong>Time:</strong> 3pm ET</p>
-    </div>
-    <div style="clear:both;"></div>
-  </article>
-
 </div>
-
-
