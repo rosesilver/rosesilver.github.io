@@ -8,7 +8,7 @@ title: Computer Science
 
 ![profile picture.](/assets/images/profile_pic.jpg){:class="profile-photo" style="float: left;margin-left: 7px;margin-top: 7px;margin-right:30px; margin-bottom:30px;"}
 
-Rose is a PhD student in computer science at Carnegie Mellon University, advised by [Elaine Shi](http://elaineshi.com/) and [Jonathan Ullman](https://jonathan-ullman.github.io/). Her research focuses on algorithms, privacy, and the interplay between theory and practice.
+Rose is a PhD student in computer science at Carnegie Mellon University, advised by [Elaine Shi](http://elaineshi.com/) and [Jonathan Ullman](https://jonathan-ullman.github.io/). Her research focuses on algorithms, privacy, and the interplay between theory and practice and is supported by the [CyLab Presidential Fellowship](https://www.cylab.cmu.edu/news/2025/10/20-presidential-fellows.html).
 
 She can be reached at rosesilv [at] cs.cmu.edu.
 
@@ -20,16 +20,17 @@ She can be reached at rosesilv [at] cs.cmu.edu.
 
 
 <!-- Option A: Two-line compact -->
-<div class="paper-list">
-<div class="paper">
-  <div class="title">History-Independent Load Balancing</div>
-  <div class="paper-meta"> SODA '26 • <a href="https://www3.cs.stonybrook.edu/~bender/">Bender</a>; <a href="https://sites.google.com/site/williamkuszmaul">Kuszmaul</a>; <a href="https://elaineshi.com/">Shi</a>; <b>Silver</b></div>
-</div>
 
 <div class="paper">
   <div class="title">Decentralized Data Archival: New Definitions and Constructions</div>
   <div class="paper-meta">under submission • <a href="https://elaineshi.com/">Shi</a>; <b>Silver</b>; <a href="https://changrui-mu.github.io/">Mu</a> — authors listed in randomized order</div>
   <div class="links"><a href="https://eprint.iacr.org/2025/969">PDF</a></div>
+</div>
+
+<div class="paper-list">
+<div class="paper">
+  <div class="title">History-Independent Load Balancing</div>
+  <div class="paper-meta"> SODA '26 • <a href="https://www3.cs.stonybrook.edu/~bender/">Bender</a>; <a href="https://sites.google.com/site/williamkuszmaul">Kuszmaul</a>; <a href="https://elaineshi.com/">Shi</a>; <b>Silver</b></div>
 </div>
 
 <div class="paper">
