@@ -23,7 +23,7 @@ She can be reached at rosesilv [at] cs.cmu.edu.
 
 <div class="paper">
   <div class="title">Decentralized Data Archival: New Definitions and Constructions</div>
-  <div class="paper-meta">under submission • <a href="https://elaineshi.com/">Shi</a>; <b>Silver</b>; <a href="https://changrui-mu.github.io/">Mu</a> — authors listed in randomized order</div>
+  <div class="paper-meta"> ITCS '26 • <a href="https://elaineshi.com/">Shi</a>; <b>Silver</b>; <a href="https://changrui-mu.github.io/">Mu</a> — authors listed in randomized order</div>
   <div class="links"><a href="https://eprint.iacr.org/2025/969">PDF</a></div>
 </div>
 
