@@ -8,12 +8,12 @@ permalink: /music/engagements/
 <div class="concert-list">
 
   <article class="concert" style="margin: 18px 0;">
-    <a href="https://pittsburghcamerata.org/events/" target="_blank" rel="noopener">
+    <a href="https://pittsburghcamerata.org/event/christmas-with-the-camerata-2025/" target="_blank" rel="noopener">
       <img src="/assets/images/christmas.png" alt="Pittsburgh Camerata concert poster" style="width:300px;height:auto;border-radius:4px;margin-right:20px; float:left;">
     </a>
     <div style="overflow:hidden;">
       <h3 style="margin-top:0; font-size: 1.6em;">
-        <a href="https://pittsburghcamerata.org/events/" target="_blank" rel="noopener">Pittsburgh Camerata: Christmas with the Camerata</a>
+        <a href="https://pittsburghcamerata.org/event/christmas-with-the-camerata-2025/" target="_blank" rel="noopener">Pittsburgh Camerata: Christmas with the Camerata</a>
       </h3>
         <p style="font-size: 1.2em;"><strong>Location:</strong> St. Andrew’s Episcopal Church</p>
         <p style="font-size: 1.2em;"><strong>Address:</strong> 5801 Hampton St, Pittsburgh, PA 15206</p>
@@ -24,12 +24,12 @@ permalink: /music/engagements/
   </article>
 
   <article class="concert" style="margin: 18px 0;">
-    <a href="https://pittsburghcamerata.org/events/" target="_blank" rel="noopener">
+    <a href="https://pittsburghcamerata.org/event/christmas-with-the-camerata/" target="_blank" rel="noopener">
       <img src="/assets/images/christmas.png" alt="Pittsburgh Camerata concert poster" style="width:300px;height:auto;border-radius:4px;margin-right:20px; float:left;">
     </a>
     <div style="overflow:hidden;">
       <h3 style="margin-top:0; font-size: 1.6em;">
-        <a href="https://pittsburghcamerata.org/events/" target="_blank" rel="noopener">Pittsburgh Camerata: Christmas with the Camerata</a>
+        <a href="https://pittsburghcamerata.org/event/christmas-with-the-camerata/" target="_blank" rel="noopener">Pittsburgh Camerata: Christmas with the Camerata</a>
       </h3>
         <p style="font-size: 1.2em;"><strong>Location:</strong> Shadyside Presbyterian Church</p>
         <p style="font-size: 1.2em;"><strong>Address:</strong> 5121 Westminster Pl, Pittsburgh, PA 15232</p>
@@ -38,6 +38,7 @@ permalink: /music/engagements/
     </div>
     <div style="clear:both;"></div>
   </article>
+
   <article class="concert" style="margin: 18px 0;">
     <a href="https://reginacoeliparish.org/events/advent-lessons-carols" target="_blank" rel="noopener">
       <img src="/assets/images/lessons-and-carols-2025.jpeg" alt="A Festival of Lessons and Carols poster" style="width:300px;height:auto;border-radius:4px;margin-right:20px; float:left;">
