@@ -1,0 +1,131 @@
+- title: The Power of Two-Choice Linear Probing
+  venue: "FOCS '26 (To Appear)"
+  authors:
+    - name: Azarmehr
+      url: https://amirazarmehr.com/
+    - name: Bender
+      url: https://www3.cs.stonybrook.edu/~bender/
+    - name: Kuszmaul
+      url: https://sites.google.com/site/williamkuszmaul
+    - name: Silver
+      bold: true
+
+- title: "The Local/Global Disk Problem: How to Use Shared High-Bandwidth Storage Economically"
+  venue: "SPAA '26"
+  award: SPAA 2026 Outstanding Paper Award
+  authors:
+    - name: Bender
+      url: https://www3.cs.stonybrook.edu/~bender/
+    - name: Bille
+      url: https://www2.compute.dtu.dk/~phbi/
+    - name: Farach-Colton
+      url: https://engineering.nyu.edu/faculty/martin-farach-colton
+    - name: Fineman 
+      url: https://people.cs.georgetown.edu/~jfineman/
+    - name: Gørtz
+      url: https://www.imm.dtu.dk/~inge/
+    - name: Goodrich
+      url: https://ics.uci.edu/~goodrich/
+    - name: Komlós
+      url: https://www.hannakomlos.com/
+    - name: Kuszmaul B.
+      url: https://people.csail.mit.edu/bradley/
+    - name: Kuszmaul W.
+      url: https://sites.google.com/site/williamkuszmaul
+    - name: Silver
+      bold: true
+    - name: Veldhuizen
+      url: https://www.linkedin.com/in/todd-veldhuizen-1047675/
+    - name: Zhou
+      url: https://orbitingflea.github.io/
+  links:
+    - label: PDF
+      url: https://dl.acm.org/doi/10.1145/3816782.3819205
+
+- title: "Decentralized Data Archival: New Definitions and Constructions"
+  venue: "ITCS '26"
+  authors:
+    - name: Shi
+      url: https://elaineshi.com/
+    - name: Silver
+      bold: true
+    - name: Mu
+      url: https://changrui-mu.github.io/
+  author_note: authors listed in randomized order
+  links:
+    - label: PDF
+      url: https://eprint.iacr.org/2025/969
+
+- title: History-Independent Load Balancing
+  venue: "SODA '26"
+  authors:
+    - name: Bender
+      url: https://www3.cs.stonybrook.edu/~bender/
+    - name: Kuszmaul
+      url: https://sites.google.com/site/williamkuszmaul
+    - name: Shi
+      url: https://elaineshi.com/
+    - name: Silver
+      bold: true
+
+- title: Private Mean Estimation with Person-Level Differential Privacy
+  venue: "SODA '25"
+  authors:
+    - name: Agarwal
+      url: https://sushaga.github.io/
+    - name: Kamath
+      url: http://www.gautamkamath.com/
+    - name: Majid
+      url: https://www.mahbodmajid.com/
+    - name: Mouzakis
+      url: https://argymouz.github.io/
+    - name: Silver
+      bold: true
+    - name: Ullman
+      url: https://jonathan-ullman.github.io/index.html
+  links:
+    - label: PDF
+      url: https://arxiv.org/pdf/2405.20405
+
+- title: Differentially Private Medians and Interior Points for Non-Pathological Data
+  venue: "ITCS '24"
+  authors:
+    - name: Aliakbarpour
+      url: https://maryamaliakbarpour.com/
+    - name: Silver
+      bold: true
+    - name: Steinke
+      url: https://www.thomas-steinke.net/
+    - name: Ullman
+      url: https://jonathan-ullman.github.io/index.html
+  links:
+    - label: PDF
+      url: https://arxiv.org/pdf/2305.13440.pdf
+    - label: Slides
+      url: /assets/cs/documents/talk-long.pdf
+    - label: Talk
+      url: https://www.youtube.com/watch?v=4hh1BTVpdyU
+
+- title: Box-Ball Systems and RSK Tableaux
+  venue: "FPSAC '22"
+  authors:
+    - name: Drucker
+    - name: Garcia
+    - name: Gunawan
+      url: https://egunawan.github.io/
+    - name: Rumbolt
+    - name: Silver
+      bold: true
+  links:
+    - label: PDF
+      url: https://arxiv.org/pdf/2112.03780.pdf
+
+- title: "Senior Thesis: Triangulations of Cambrian Lattices of Type A"
+  category: miscellaneous
+  links:
+    - label: PDF
+      url: /assets/cs/documents/senior_thesis.pdf
+    - label: Slides
+      url: /assets/cs/documents/senior_thesis_slides.pdf
+    - label: Talk
+      url: https://www.youtube.com/watch?v=aFhcHNa69WM

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Music
+permalink: /music.html
 ---
 
 # Rose Silver, Soprano
@@ -16,7 +17,7 @@ She has also studied conducting under Katherine Chan and Nathan Reiff and served
 
   <article class="concert" style="margin: 18px 0;">
     <a href="https://pittsburghcamerata.org/event/christmas-with-the-camerata-2025/" target="_blank" rel="noopener">
-      <img src="/assets/images/christmas.png" alt="Pittsburgh Camerata concert poster" style="width:300px;height:auto;border-radius:4px;margin-right:20px; float:left;">
+      <img src="/assets/music/images/christmas.png" alt="Pittsburgh Camerata concert poster" style="width:300px;height:auto;border-radius:4px;margin-right:20px; float:left;">
     </a>
     <div style="overflow:hidden;">
       <h3 style="margin-top:0; font-size: 1.6em;">
@@ -32,7 +33,7 @@ She has also studied conducting under Katherine Chan and Nathan Reiff and served
 
   <article class="concert" style="margin: 18px 0;">
     <a href="https://pittsburghcamerata.org/event/christmas-with-the-camerata/" target="_blank" rel="noopener">
-      <img src="/assets/images/christmas.png" alt="Pittsburgh Camerata concert poster" style="width:300px;height:auto;border-radius:4px;margin-right:20px; float:left;">
+      <img src="/assets/music/images/christmas.png" alt="Pittsburgh Camerata concert poster" style="width:300px;height:auto;border-radius:4px;margin-right:20px; float:left;">
     </a>
     <div style="overflow:hidden;">
       <h3 style="margin-top:0; font-size: 1.6em;">
@@ -48,7 +49,7 @@ She has also studied conducting under Katherine Chan and Nathan Reiff and served
 
   <article class="concert" style="margin: 18px 0;">
     <a href="https://reginacoeliparish.org/events/advent-lessons-carols" target="_blank" rel="noopener">
-      <img src="/assets/images/lessons-and-carols-2025.jpeg" alt="A Festival of Lessons and Carols poster" style="width:300px;height:auto;border-radius:4px;margin-right:20px; float:left;">
+      <img src="/assets/music/images/lessons-and-carols-2025.jpeg" alt="A Festival of Lessons and Carols poster" style="width:300px;height:auto;border-radius:4px;margin-right:20px; float:left;">
     </a>
     <div style="overflow:hidden;">
       <h3 style="margin-top:0; font-size: 1.6em;">
@@ -67,7 +68,7 @@ She has also studied conducting under Katherine Chan and Nathan Reiff and served
 <div class="concert-list">
   <article class="concert" style="margin: 18px 0;">
     <a href="https://www.facebook.com/events/735-commonwealth-avenue-boston-ma-united-states-massachusetts-02215/how-can-i-keep-from-singing-marsh-chapel-choir-reunion-concert/1332535558452085/" target="_blank" rel="noopener">
-      <img src="/assets/images/marsh.jpg" alt="Marsh Chapel Choir Reunion Concert poster" style="width:300px;height:auto;border-radius:4px;margin-right:20px; float:left;">
+      <img src="/assets/music/images/marsh.jpg" alt="Marsh Chapel Choir Reunion Concert poster" style="width:300px;height:auto;border-radius:4px;margin-right:20px; float:left;">
     </a>
     <div style="overflow:hidden;">
       <h3 style="margin-top:0; font-size: 1.6em;">
@@ -84,7 +85,7 @@ She has also studied conducting under Katherine Chan and Nathan Reiff and served
 
   <article class="concert" style="margin: 18px 0;">
     <a href="https://handelandhaydn.org/concerts/2025-26-season/saul/" target="_blank" rel="noopener">
-        <img src="/assets/images/saul.jpg" alt="Handel and Haydn Society concert poster" style="width:300px;height:auto;border-radius:4px;margin-right:20px; float:left;">
+        <img src="/assets/music/images/saul.jpg" alt="Handel and Haydn Society concert poster" style="width:300px;height:auto;border-radius:4px;margin-right:20px; float:left;">
     </a>
     <div style="overflow:hidden;">
       <h3 style="margin-top:0; font-size: 1.6em;">
@@ -100,7 +101,7 @@ She has also studied conducting under Katherine Chan and Nathan Reiff and served
 
   <article class="concert" style="margin: 18px 0;">
     <a href="https://handelandhaydn.org/concerts/2025-26-season/saul/" target="_blank" rel="noopener">
-      <img src="/assets/images/saul.jpg" alt="Handel and Haydn Society concert poster" style="width:300px;height:auto;border-radius:4px;margin-right:20px; float:left;">
+      <img src="/assets/music/images/saul.jpg" alt="Handel and Haydn Society concert poster" style="width:300px;height:auto;border-radius:4px;margin-right:20px; float:left;">
     </a>
     <div style="overflow:hidden;">
       <h3 style="margin-top:0; font-size: 1.6em;">
@@ -116,7 +117,7 @@ She has also studied conducting under Katherine Chan and Nathan Reiff and served
 
   <article class="concert" style="margin: 18px 0;">
     <a href="https://pittsburghcamerata.org/events/" target="_blank" rel="noopener">
-      <img src="/assets/images/cabaret.png" alt="Pittsburgh Camerata concert poster" style="width:300px;height:auto;border-radius:4px;margin-right:20px; float:left;">
+      <img src="/assets/music/images/cabaret.png" alt="Pittsburgh Camerata concert poster" style="width:300px;height:auto;border-radius:4px;margin-right:20px; float:left;">
     </a>
     <div style="overflow:hidden;">
       <h3 style="margin-top:0; font-size: 1.6em;">

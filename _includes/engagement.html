@@ -1,0 +1,31 @@
+<article class="concert scroll-reveal">
+  <a href="{{ include.engagement.url }}" target="_blank" rel="noopener" class="concert-poster-link">
+    <img
+      class="concert-poster"
+      src="{{ include.engagement.image | relative_url }}"
+      alt="{{ include.engagement.image_alt }}"
+    >
+  </a>
+  <div class="concert-details">
+    <h3>
+      <a href="{{ include.engagement.url }}" target="_blank" rel="noopener">{{ include.engagement.title }}</a>
+    </h3>
+    {% if include.engagement.location %}
+    <p><strong>Location:</strong> {{ include.engagement.location }}</p>
+    {% endif %}
+    {% if include.engagement.address %}
+    <p><strong>Address:</strong> {{ include.engagement.address }}</p>
+    {% endif %}
+    {% if include.engagement.date %}
+    <p><strong>Date:</strong> {{ include.engagement.date }}</p>
+    {% endif %}
+    {% if include.engagement.time %}
+    <p><strong>Time:</strong> {{ include.engagement.time }}</p>
+    {% endif %}
+    {% if include.engagement.livestream %}
+    <p><strong>Livestream:</strong>
+      <a href="{{ include.engagement.livestream.url }}" target="_blank" rel="noopener">{{ include.engagement.livestream.label | default: "Watch live" }}</a>
+    </p>
+    {% endif %}
+  </div>
+</article>

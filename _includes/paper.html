@@ -1,0 +1,30 @@
+<div class="paper">
+  <div class="title">{{ include.paper.title }}</div>
+  {% if include.paper.venue or include.paper.authors %}
+  <div class="paper-meta">
+    {%- if include.paper.venue -%}{{ include.paper.venue }}{%- endif -%}
+    {%- if include.paper.award -%}
+      <span class="award-chip">{{ include.paper.award }}</span>
+    {%- endif -%}
+    {%- if include.paper.venue and include.paper.authors %} • {% endif -%}
+    {%- for author in include.paper.authors -%}
+      {%- if author.url -%}
+        <a href="{{ author.url }}">{{ author.name }}</a>
+      {%- elsif author.bold -%}
+        <b>{{ author.name }}</b>
+      {%- else -%}
+        {{ author.name }}
+      {%- endif -%}
+      {%- unless forloop.last -%}; {% endunless -%}
+    {%- endfor -%}
+    {%- if include.paper.author_note %} — {{ include.paper.author_note }}{% endif -%}
+  </div>
+  {% endif %}
+  {% if include.paper.links %}
+  <div class="links">
+    {% for link in include.paper.links %}
+      <a href="{{ link.url }}">{{ link.label }}</a>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>

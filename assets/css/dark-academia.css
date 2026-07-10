@@ -1,17 +1,17 @@
 /* Dark Academia Theme */
 
 :root {
-  /* Light parchment palette for dark text readability */
-  --bg: #f6f3ee;
-  --bg-elev: #f0ece6;
-  --surface: #ebe5dc;
-  --text: #1b1b1b; /* dark text */
-  --muted: #5c5345; /* subdued labels */
-  --link: #b26a1b; /* warmer brown-orange */
-  --link-hover: #d07a1c;
-  --accent: #8b5e34;
-  --border: rgba(0, 0, 0, 0.12);
-  --shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  --bg: #eaeaea;
+  --bg-elev: #f2f2f4;
+  --surface: #e0e0e4;
+  --text: #111111;
+  --muted: #4a4a4a;
+  --link: #111111;
+  --link-hover: #555555;
+  --accent: #333333;
+  --border: rgba(0, 0, 0, 0.1);
+  --shadow: none;
+  --header-link: #111111;
 }
 
 html, body {
@@ -65,43 +65,104 @@ a:hover { text-decoration: none !important; }
 
 /* Layout wrappers from Minima */
 .wrapper {
-  max-width: 900px;
+  max-width: 1040px;
 }
 
-/* Header / Nav (Minima provides .site-header/.site-nav) */
+/* Header / Nav */
 .site-header {
   background: var(--bg);
-  border-bottom: 1px solid var(--border);
-  position: sticky;
-  top: 0;
+  border-bottom: none;
+  position: relative;
   z-index: 1000;
-  box-shadow: 0 10px 24px rgba(0,0,0,0.14);
+  box-shadow: none;
+  padding: 28px 0 22px;
 }
 
-.site-header .site-title, .site-header .page-link {
+.header-bar {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 24px;
+  min-height: 72px;
+  position: relative;
+}
+
+.header-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-decoration: none !important;
+  color: var(--text) !important;
+  line-height: 1.2;
+}
+
+.header-brand:hover {
+  opacity: 0.72;
   color: var(--text) !important;
 }
 
-/* Match header name to page H1 font */
-.site-title, .site-title:visited {
+.header-brand-name {
   font-family: "Cormorant Garamond", Georgia, serif;
-  font-weight: 700;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
 }
 
-.site-title img {
-  width: 28px;
-  height: 28px;
-  display: inline-block;
-  vertical-align: middle;
-  border-radius: 4px;
+.header-brand-sub {
+  margin-top: 6px;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2px 0;
+  row-gap: 4px;
+}
+
+.header-nav--left {
+  justify-content: flex-start;
+}
+
+.header-nav--right {
+  justify-content: flex-end;
 }
 
 .site-header .page-link {
-  padding: 6px 10px;
-  border-radius: 4px;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--header-link) !important;
+  padding: 4px 10px;
+  border-radius: 0;
+  background: none;
+  transition: opacity 160ms ease;
+  white-space: nowrap;
 }
 
-/* Dropdown styles */
+.site-header .page-link:hover {
+  opacity: 0.55;
+  background: none;
+  color: var(--header-link) !important;
+}
+
+.nav-trigger,
+.nav-trigger-label,
+.header-mobile-menu {
+  display: none;
+}
+
+/* Legacy dropdown styles kept for any remaining markup */
 .nav-item.dropdown { position: relative; display: inline-block; }
 .dropdown-toggle { display: none; }
 .nav-item .chevron { display: none; }
@@ -154,14 +215,10 @@ a:hover { text-decoration: none !important; }
   cursor: default;
 }
 
-.site-header .page-link:hover {
-  background: var(--surface);
-}
-
 /* Images */
 img {
   border-radius: 6px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  box-shadow: none;
 }
 
 /* Desktop profile image sizing */
@@ -182,6 +239,26 @@ hr {
   border-radius: 0;
   box-shadow: none;
   padding: 0;
+  margin: 18px 0;
+  overflow: hidden;
+}
+
+.concert-poster {
+  width: 300px;
+  height: auto;
+  border-radius: 4px;
+  margin-right: 20px;
+  float: left;
+  display: block;
+}
+
+.concert-details {
+  overflow: hidden;
+}
+
+.concert-details h3 {
+  margin-top: 0;
+  font-size: 1.6em;
 }
 
 /* Faint divider between performances */
@@ -191,14 +268,12 @@ hr {
   margin-top: 12px;
 }
 
-
-
 .concert h3 a { color: var(--text); }
 .concert h3 a:hover { color: var(--link-hover); }
 
 .concert p strong { color: var(--muted); }
 
-/* Slightly smaller text within concert cards (override inline sizes) */
+/* Slightly smaller text within concert cards */
 .concert h3 { font-size: 1.3em !important; }
 .concert p { font-size: 1.05em !important; }
 
@@ -238,6 +313,89 @@ blockquote {
 
 /* Responsive tweaks */
 @media screen and (max-width: 700px) {
+  .site-header {
+    padding: 18px 0 14px;
+  }
+
+  .header-bar {
+    grid-template-columns: 1fr auto;
+    min-height: auto;
+  }
+
+  .header-brand {
+    grid-column: 1 / -1;
+    order: -1;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header-brand-name {
+    font-size: 0.92rem;
+    letter-spacing: 0.16em;
+  }
+
+  .header-nav--left,
+  .header-nav--right {
+    display: none;
+  }
+
+  .nav-trigger {
+    display: block;
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .nav-trigger-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: end;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 4px;
+  }
+
+  .nav-trigger-label:hover {
+    background: var(--surface);
+  }
+
+  .header-mobile-menu {
+    display: none;
+    border-top: 1px solid var(--border);
+    background: var(--bg);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.10);
+  }
+
+  .site-header:has(#nav-trigger:checked) .header-mobile-menu {
+    display: block;
+  }
+
+  .header-mobile-menu .page-link {
+    display: block;
+    padding: 12px 0;
+    color: var(--text) !important;
+  }
+
+  .header-mobile-menu .page-link + .page-link {
+    border-top: 1px solid var(--border);
+  }
+
+  .header-mobile-group-label {
+    margin: 14px 0 6px;
+    color: var(--muted);
+    font-size: 0.85em;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .header-mobile-group-label:first-child {
+    margin-top: 8px;
+  }
+
   /* Make nav links and submenu easy to tap */
   .site-nav .page-link { display: block; padding: 12px 16px; }
 
@@ -274,7 +432,7 @@ blockquote {
     padding: 12px 0;
     grid-template-columns: 1fr;
   }
-  .concert img {
+  .concert-poster {
     float: none !important;
     width: 100% !important;
     height: auto !important;
@@ -297,13 +455,191 @@ blockquote {
   }
   /* Allow tapping the parent label */
   .nav-item .is-parent { pointer-events: auto; cursor: pointer; }
+
+  .home-photo {
+    border-radius: 0;
+  }
 }
 
-/* Center the simple home landing content */
-.home-landing { text-align: center; }
-.home-landing .profile-photo { margin: 12px auto 16px !important; float: none !important; }
-.home-landing ul { list-style: disc; padding-left: 24px; display: inline-block; text-align: left; }
-.home-landing li { display: list-item; margin: 6px 0; }
+/* Home landing */
+.page-content:has(.home-landing) {
+  padding: 0;
+}
+
+.page-content:has(.home-landing) > .wrapper {
+  max-width: none;
+  padding: 0;
+  margin: 0;
+}
+
+.home-landing {
+  max-width: none;
+  text-align: center;
+}
+
+.home-hero {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.home-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.home-bottom {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 72px 32px 40px;
+  text-align: center;
+  background: linear-gradient(
+    to top,
+    rgba(20, 20, 20, 0.72) 0%,
+    rgba(20, 20, 20, 0.45) 45%,
+    rgba(20, 20, 20, 0) 100%
+  );
+  opacity: 0;
+  transform: translateY(36px);
+  will-change: opacity, transform;
+}
+
+.home-blurb {
+  max-width: 720px;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.92);
+  font-family: "Crimson Text", Georgia, "Times New Roman", serif;
+  font-size: clamp(1.3rem, 2.6vw, 1.7rem);
+  font-weight: 400;
+  line-height: 1.65;
+  letter-spacing: 0.02em;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 700px) {
+  .home-bottom {
+    padding: 56px 20px 28px;
+  }
+
+  .home-blurb {
+    line-height: 1.5;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-bottom {
+    opacity: 1;
+    transform: none;
+    will-change: auto;
+  }
+}
+
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  will-change: opacity, transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-reveal {
+    opacity: 1;
+    transform: none;
+    will-change: auto;
+  }
+}
+
+/* Research page */
+.page-content:has(.research-page) > .wrapper {
+  max-width: 1100px;
+  padding: 40px 24px 56px;
+  margin: 0 auto;
+}
+
+.research-page {
+  text-align: center;
+}
+
+.research-page h1 {
+  margin: 0 auto 1.25em;
+  padding: 0;
+  max-width: 1000px;
+  font-size: clamp(1.6rem, 3vw, 2rem);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.research-photo {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  display: block;
+  margin: 0 auto 36px;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.research-text {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.research-section {
+  max-width: 1000px;
+  margin: 40px auto 0;
+  padding: 0 0 48px;
+  text-align: left;
+}
+
+.research-section:first-of-type {
+  margin-top: 36px;
+}
+
+.research-section-title {
+  margin-top: 0;
+  margin-bottom: 1em;
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+}
+
+.research-section .research-note {
+  margin-bottom: 14px;
+}
+
+.research-section .research-text {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.research-text p {
+  margin: 0;
+}
+
+.research-text p + p {
+  margin-top: 1.25em;
+}
+
+.research-text a {
+  color: var(--text) !important;
+}
+
+.research-text a:hover {
+  color: var(--link-hover) !important;
+}
 
 /* Research paper preview styles */
 .paper-list { margin-top: 0; }
@@ -311,6 +647,17 @@ blockquote {
 .paper .title { font-weight: 700; }
 .paper .paper-meta { color: var(--muted); font-size: 0.95em; }
 .paper .links a { margin-right: 10px; }
+.paper .award-chip {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 1px 7px;
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  color: var(--accent);
+  font-size: 0.85em;
+  font-style: italic;
+  white-space: nowrap;
+}
 .chip {
   display: inline-block;
   padding: 2px 6px;
@@ -326,4 +673,126 @@ blockquote {
   margin-top: 2px;
   margin-bottom: 14px;
   font-style: italic;
+}
+
+/* Performances page */
+.page-content:has(.performances-page) > .wrapper {
+  max-width: 1100px;
+  padding: 40px 24px 56px;
+  margin: 0 auto;
+}
+
+.performances-page {
+  text-align: center;
+}
+
+.performances-photo {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  display: block;
+  margin: 0 auto 36px;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.performances-section-title {
+  margin: 40px auto 1em;
+  max-width: 1000px;
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+}
+
+.performances-section-title:first-of-type {
+  margin-top: 0;
+}
+
+.performances-page .concert-list {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Bio page */
+.page-content:has(.bio-page) > .wrapper {
+  max-width: 1100px;
+  padding: 40px 24px 56px;
+  margin: 0 auto;
+}
+
+.bio-page {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.bio-media {
+  flex: 0 0 41.5%;
+  padding-right: 17px;
+}
+
+.bio-photo {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 4;
+  display: block;
+  object-fit: cover;
+  object-position: center 22%;
+  margin: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.bio-content {
+  flex: 1;
+  min-width: 0;
+  padding-left: 17px;
+  text-align: left;
+  color: var(--text);
+  font-size: 1.11rem;
+  line-height: 1.5;
+}
+
+.bio-content p {
+  margin: 0;
+}
+
+.bio-content p + p {
+  margin-top: 1.25em;
+}
+
+.bio-content a {
+  color: var(--text) !important;
+}
+
+.bio-content a:hover {
+  color: var(--link-hover) !important;
+}
+
+@media screen and (max-width: 800px) {
+  .page-content:has(.bio-page) > .wrapper {
+    padding: 28px 20px 48px;
+  }
+
+  .bio-page {
+    flex-direction: column;
+  }
+
+  .bio-media {
+    flex: none;
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 24px;
+  }
+
+  .bio-photo {
+    max-width: 360px;
+  }
+
+  .bio-content {
+    padding-left: 0;
+  }
 }

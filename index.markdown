@@ -1,22 +1,21 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
 title: Home
 ---
 
-
-<div class="home-landing" markdown="1">
-
-## Rose Silver
-
-![Portrait of Rose Silver](/assets/images/profile_pic.jpg){:class="profile-photo" width="240" height="240"}
-
-## Learn More
-
-- [Computer Science]({{ "/cs.html" | relative_url }})
-- [Music]({{ "/music.html" | relative_url }})
-
+<div class="home-landing">
+  <div class="home-hero">
+    <img
+      class="home-photo"
+      src="{{ '/rose.png' | relative_url }}"
+      alt="Portrait of Rose Silver"
+    />
+    <div class="home-bottom">
+      <p class="home-blurb">
+        Hello! My name is Rose, and I'm a PhD student in computer science at Carnegie Mellon University. I'm also a classical soprano based in the Pittsburgh area. This site is home to both sides of my work.
+      </p>
+    </div>
+  </div>
 </div>
 
+<script src="{{ '/assets/js/home-scroll.js' | relative_url }}" defer></script>
