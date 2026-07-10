@@ -9,10 +9,11 @@
   }
 
   function update() {
+    var isMobile = window.matchMedia("(max-width: 700px)").matches;
     var rect = bottom.getBoundingClientRect();
     var viewHeight = window.innerHeight;
-    var start = viewHeight * 0.98;
-    var end = viewHeight * 0.55;
+    var start = viewHeight * (isMobile ? 1.05 : 0.98);
+    var end = viewHeight * (isMobile ? 0.72 : 0.55);
     var progress = (start - rect.top) / (start - end);
     progress = Math.min(1, Math.max(0, progress));
 
