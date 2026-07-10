@@ -1,0 +1,33 @@
+<div class="recording">
+  {% if include.recording.youtube_id %}
+  <div class="recording-embed">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/{{ include.recording.youtube_id }}"
+      title="{% if include.recording.piece != '' %}{{ include.recording.piece }}{% else %}Recording{% endif %}"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+      loading="lazy"
+    ></iframe>
+  </div>
+  {% elsif include.recording.video %}
+  <video
+    class="recording-video"
+    controls
+    playsinline
+    preload="none"
+    src="{{ include.recording.video | relative_url }}"
+  >
+    Your browser does not support the video tag.
+  </video>
+  {% endif %}
+  {% if include.recording.piece != "" or include.recording.pianist != "" %}
+  <figcaption class="recording-caption">
+    {% if include.recording.piece != "" %}
+    <span class="recording-piece">{{ include.recording.piece }}</span>
+    {% endif %}
+    {% if include.recording.pianist != "" %}
+    <span class="recording-pianist">Pianist: {{ include.recording.pianist }}</span>
+    {% endif %}
+  </figcaption>
+  {% endif %}
+</div>

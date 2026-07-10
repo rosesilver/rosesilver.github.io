@@ -12,7 +12,7 @@ title: Home
     />
     <div class="home-bottom">
       <p class="home-blurb">
-        Hello! My name is Rose, and I'm a PhD student in computer science at Carnegie Mellon University. I'm also a classical soprano based in the Pittsburgh area. This site is home to both sides of my work.
+        Hello! My name is Rose, and I'm a PhD student studying theoretical computer science at Carnegie Mellon University. I'm also a classical soprano based in the Pittsburgh area.
       </p>
     </div>
   </div>

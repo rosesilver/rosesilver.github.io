@@ -4,6 +4,10 @@ title: Recordings
 permalink: /music/recordings/
 ---
 
-# Recordings
+<div class="recordings-page">
+  <h1 class="recordings-title">Recordings</h1>
 
-Content coming soon.
+  {% for recording in site.data.music.recordings %}
+  {% include recording.html recording=recording %}
+  {% endfor %}
+</div>

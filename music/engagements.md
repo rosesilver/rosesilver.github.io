@@ -22,7 +22,7 @@ permalink: /music/engagements/
   </div>
   {% endif %}
 
-  <h2 class="performances-section-title">Past Events (2025-2026 Season)</h2>
+  <h2 class="performances-section-title">Past Events (2025-26 Season)</h2>
 
   <div class="concert-list">
   {% for engagement in site.data.music.engagements %}

@@ -7,3 +7,8 @@ vendor
 .ruby-version
 
 .DS_Store
+
+# Large source videos (use *-web.mp4 versions on the site)
+assets/music/videos/purcell.mp4
+assets/music/videos/purcell.mov
+assets/music/videos/My Movie 3.mp4
