@@ -1,3 +1,13 @@
-- piece: ""
-  pianist: ""
-  youtube_id: "aqz-KE-bpKQ"
+- piece: "Ave Maria (F. Schubert)"
+  musicians: "Rose Silver (soprano), Brendan Lowery (organ)"
+  audio: /assets/music/audio/ave-maria.mp3
+
+- piece: "Sweeter than Roses (H. Purcell)"
+  musicians: "Rose Silver (soprano), Ellen Fast (piano)"
+  youtube_id: "GVt5s0OSkPU"
+
+- piece: "Die Lotosblume (R. Schumann)"
+  musicians: "Rose Silver (soprano), Ellen Fast (piano)"
+  youtube_id: "4N_crdylX2o"
+
+

@@ -8,7 +8,7 @@ permalink: /cs/research/
   <h1>Research</h1>
   <img
     class="research-photo scroll-reveal"
-    src="{{ '/assets/cs/images/IMG_8416.JPG' | relative_url }}"
+    src="{{ '/assets/cs/images/pisec.jpg' | relative_url }}"
     alt="Portrait of Rose Silver"
   />
 
@@ -17,6 +17,7 @@ permalink: /cs/research/
     <div class="research-text">
       <p>I'm a PhD student studying theoretical computer science at Carnegie Mellon University (CMU), advised by <a href="http://elaineshi.com/">Elaine Shi</a> and <a href="https://jonathan-ullman.github.io/">Jonathan Ullman</a>. My research broadly focuses on algorithms, privacy, and the interplay between theory and practice. My research is generously supported by the <a href="https://www.cylab.cmu.edu/news/2025/10/20-presidential-fellows.html">CyLab Presidential Fellowship</a>.</p>
       <p>Before moving to CMU, I completed the first three years of my PhD at Northeastern University. I also received my Bachelor's in Mathematics, Minor in Physics from Northeastern University.</p>
+      <p><a href="{{ '/assets/cs/documents/Rose_CV.pdf' | relative_url }}">CV</a> (last updated September 25, 2025)</p>
     </div>
   </div>
 

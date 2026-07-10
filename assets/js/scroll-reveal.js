@@ -21,8 +21,9 @@
 
     elements.forEach(function (el) {
       var rect = el.getBoundingClientRect();
-      var start = viewHeight * 0.92;
-      var end = viewHeight * 0.45;
+      var late = el.classList.contains("scroll-reveal-late");
+      var start = viewHeight * (late ? 1.08 : 0.92);
+      var end = viewHeight * (late ? 0.72 : 0.45);
       var projectedTop = rect.top - remainingScroll;
 
       if (projectedTop > end) {

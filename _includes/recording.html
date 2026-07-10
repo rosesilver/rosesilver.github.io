@@ -19,14 +19,23 @@
   >
     Your browser does not support the video tag.
   </video>
+  {% elsif include.recording.audio %}
+  <audio
+    class="recording-audio"
+    controls
+    preload="auto"
+    src="{{ include.recording.audio | relative_url }}"
+  >
+    Your browser does not support the audio element.
+  </audio>
   {% endif %}
-  {% if include.recording.piece != "" or include.recording.pianist != "" %}
+  {% if include.recording.piece != "" or include.recording.musicians != "" %}
   <figcaption class="recording-caption">
     {% if include.recording.piece != "" %}
     <span class="recording-piece">{{ include.recording.piece }}</span>
     {% endif %}
-    {% if include.recording.pianist != "" %}
-    <span class="recording-pianist">Pianist: {{ include.recording.pianist }}</span>
+    {% if include.recording.musicians != "" %}
+    <span class="recording-musicians">{% if include.recording.piece != "" %} · {% endif %}{{ include.recording.musicians }}</span>
     {% endif %}
   </figcaption>
   {% endif %}

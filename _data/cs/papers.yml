@@ -55,6 +55,8 @@
   links:
     - label: PDF
       url: https://eprint.iacr.org/2025/969
+    - label: Talk
+      url: https://youtu.be/gLbwUOBkleU?si=hk0-Tg-7LIifyCYn
 
 - title: History-Independent Load Balancing
   venue: "SODA '26"
@@ -67,6 +69,11 @@
       url: https://elaineshi.com/
     - name: Silver
       bold: true
+  links:
+    - label: PDF
+      url: https://arxiv.org/pdf/2602.11953
+    - label: Talk
+      url: https://youtu.be/PM0YZzq8QqU?si=e904yUihyEVAeubE
 
 - title: Private Mean Estimation with Person-Level Differential Privacy
   venue: "SODA '25"

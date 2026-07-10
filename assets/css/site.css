@@ -1,4 +1,4 @@
-/* Dark Academia Theme */
+/* Site theme */
 
 :root {
   --bg: #eaeaea;
@@ -741,11 +741,21 @@ blockquote {
   margin: 0 auto;
 }
 
+.recording + .recording {
+  margin-top: 48px;
+}
+
 .recording-video {
   width: 100%;
   height: auto;
   display: block;
   background: #000;
+}
+
+.recording-audio {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 .recording-embed {
@@ -774,15 +784,15 @@ blockquote {
 }
 
 .recording-piece {
-  display: block;
+  display: inline;
   color: var(--text);
   font-style: italic;
   font-size: 1.1rem;
 }
 
-.recording-pianist {
-  display: block;
-  margin-top: 0.35em;
+.recording-musicians {
+  display: inline;
+  font-size: 1.05rem;
 }
 
 /* Bio page */
@@ -793,36 +803,27 @@ blockquote {
 }
 
 .bio-page {
-  display: flex;
-  align-items: flex-start;
-  width: 100%;
-}
-
-.bio-media {
-  flex: 0 0 41.5%;
-  padding-right: 17px;
+  text-align: center;
 }
 
 .bio-photo {
   width: 100%;
+  max-width: 360px;
   height: auto;
-  aspect-ratio: 3 / 4;
   display: block;
-  object-fit: cover;
-  object-position: center 22%;
-  margin: 0;
-  border-radius: 0;
+  margin: 0 auto 36px;
+  border-radius: 8px;
   box-shadow: none;
 }
 
 .bio-content {
-  flex: 1;
-  min-width: 0;
-  padding-left: 17px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0;
   text-align: left;
   color: var(--text);
-  font-size: 1.11rem;
-  line-height: 1.5;
+  font-size: 1.05rem;
+  line-height: 1.75;
 }
 
 .bio-content p {
@@ -846,22 +847,7 @@ blockquote {
     padding: 28px 20px 48px;
   }
 
-  .bio-page {
-    flex-direction: column;
-  }
-
-  .bio-media {
-    flex: none;
-    width: 100%;
-    padding-right: 0;
-    margin-bottom: 24px;
-  }
-
   .bio-photo {
-    max-width: 360px;
-  }
-
-  .bio-content {
-    padding-left: 0;
+    max-width: 100%;
   }
 }

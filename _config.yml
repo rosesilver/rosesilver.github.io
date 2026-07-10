@@ -19,13 +19,13 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Rose Silver
-author: Email
+author: Rose Silver
 home_name: Home
-name: Email
+name: Rose Silver
 email: rosesilv [at] cs.cmu.edu
-description: ""
+description: Personal website of Rose Silver
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "rosesilver.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://rosesilver.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  rosesilver
 
 # Build settings
@@ -51,6 +51,12 @@ header_pages:
 plugins:
   - jekyll-feed
 #   - jekyll-remote-theme
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /rose.png
 
 # Exclude from processing.
 # The following items will not be processed, by default.
