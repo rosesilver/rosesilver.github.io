@@ -1,5 +1,41 @@
+- title: "Popcorning: Repurposing Write-Optimization Buffers for Faster Queries"
+  venue: "PODS '27 (To Appear)"
+  authors:
+    - name: Afshani
+      url: https://cs.au.dk/~peyman/
+    - name: Bender
+      url: https://www3.cs.stonybrook.edu/~bender/
+    - name: Bille
+      url: https://www2.compute.dtu.dk/~phbi/
+    - name: Conway
+      url: https://ajhconway.com/
+    - name: Farach-Colton
+      url: https://engineering.nyu.edu/faculty/martin-farach-colton
+    - name: Fineman
+      url: https://people.cs.georgetown.edu/~jfineman/
+    - name: Goodrich
+      url: https://ics.uci.edu/~goodrich/
+    - name: Gørtz
+      url: https://www.imm.dtu.dk/~inge/
+    - name: Iacono
+      url: https://john.iacono.web.ulb.be/
+    - name: Johnson
+      url: https://rtjohnso.github.io/
+    - name: Komlós
+      url: https://www.hannakomlos.com/
+    - name: Kuszmaul
+      url: https://sites.google.com/site/williamkuszmaul
+    - name: Silver
+      bold: true
+    - name: Tarjan
+      url: https://www.cs.princeton.edu/~ret/
+    - name: Tarnow
+      url: Simon Rumle Tarnow
+    - name: Zhou
+      url: https://orbitingflea.github.io/
+
 - title: The Power of Two-Choice Linear Probing
-  venue: "FOCS '26 (To Appear)"
+  venue: "FOCS '26"
   authors:
     - name: Azarmehr
       url: https://amirazarmehr.com/
@@ -9,6 +45,9 @@
       url: https://sites.google.com/site/williamkuszmaul
     - name: Silver
       bold: true
+  links:
+    - label: PDF
+      url: https://arxiv.org/abs/2610.00688
 
 - title: "The Local/Global Disk Problem: How to Use Shared High-Bandwidth Storage Economically"
   venue: "SPAA '26"
