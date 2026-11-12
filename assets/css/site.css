@@ -689,6 +689,56 @@ blockquote {
   font-style: italic;
 }
 
+/* Teaching and mentorship page */
+.page-content:has(.teaching-page) > .wrapper {
+  max-width: 1100px;
+  padding: 40px 24px 56px;
+  margin: 0 auto;
+}
+
+.teaching-page {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.teaching-page h1 {
+  margin: 0 0 1.25em;
+  font-size: clamp(1.6rem, 3vw, 2rem);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+}
+
+.teaching-intro,
+.teaching-list {
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.teaching-section {
+  margin-top: 48px;
+}
+
+.teaching-section h2 {
+  margin: 0 0 28px;
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+}
+
+.teaching-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.teaching-list li + li {
+  margin-top: 12px;
+}
+
 /* Performances page */
 .page-content:has(.performances-page) > .wrapper {
   max-width: 1100px;
