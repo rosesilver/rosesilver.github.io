@@ -1,4 +1,5 @@
 <article class="concert scroll-reveal">
+  {% if include.engagement.image %}
   <a href="{{ include.engagement.url }}" target="_blank" rel="noopener" class="concert-poster-link">
     <img
       class="concert-poster"
@@ -6,10 +7,14 @@
       alt="{{ include.engagement.image_alt }}"
     >
   </a>
+  {% endif %}
   <div class="concert-details">
     <h3>
       <a href="{{ include.engagement.url }}" target="_blank" rel="noopener">{{ include.engagement.title }}</a>
     </h3>
+    {% if include.engagement.performers %}
+    <p><strong>Performers:</strong> {{ include.engagement.performers }}</p>
+    {% endif %}
     {% if include.engagement.location %}
     <p><strong>Location:</strong> {{ include.engagement.location }}</p>
     {% endif %}

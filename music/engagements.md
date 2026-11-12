@@ -22,15 +22,18 @@ permalink: /music/engagements/
   </div>
   {% endif %}
 
-  <h2 class="performances-section-title">Past Events (2025-26 Season)</h2>
+  {% assign past_engagements = site.data.music.engagements | where: "category", "past" %}
+  {% assign past_seasons = "2026-27,2025-26" | split: "," %}
+  {% for season in past_seasons %}
+  {% assign season_engagements = past_engagements | where: "season", season %}
+  <h2 class="performances-section-title">Past Events ({{ season }} Season)</h2>
 
   <div class="concert-list">
-  {% for engagement in site.data.music.engagements %}
-  {% if engagement.category == "past" %}
+  {% for engagement in season_engagements %}
   {% include engagement.html engagement=engagement %}
-  {% endif %}
   {% endfor %}
   </div>
+  {% endfor %}
 </div>
 
 <script src="{{ '/assets/js/scroll-reveal.js' | relative_url }}" defer></script>

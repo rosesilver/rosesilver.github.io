@@ -1,15 +1,161 @@
-- title: "The Consort Project: When the Stars Align"
+- title: "St. Boniface Church: 100th Anniversary Mass"
   category: upcoming
+  season: "2026-27"
+  url: https://diopitt.org/events/100th-anniversary-of-st-boniface-church
+  image: assets/music/images/st-boniface-100th-anniversary.png
+  image_alt: St. Boniface Church 100th anniversary poster featuring an illustration of the church
+  location: St. Boniface Church, Christ Our Savior Parish
+  address: 2208 East St, Pittsburgh, PA 15212
+  date: November 21st, 2026
+  time: 4pm ET
+
+- title: "Pittsburgh Camerata: Christmas with the Camerata"
+  category: upcoming
+  season: "2026-27"
+  url: https://pittsburghcamerata.org/event/christmas-2026/
+  image: assets/music/images/christmas-2026.jpg
+  image_alt: Christmas with the Pittsburgh Camerata poster with yellow lettering over colorful lights
+  location: St. Andrew's Episcopal Church
+  address: 5801 Hampton St, Pittsburgh, PA 15206
+  date: December 11th, 2026
+  time: 7:30pm ET
+
+- title: "Pittsburgh Camerata: Christmas with the Camerata"
+  category: upcoming
+  season: "2026-27"
+  url: https://pittsburghcamerata.org/event/christmas-2026/
+  image: assets/music/images/christmas-2026.jpg
+  image_alt: Christmas with the Pittsburgh Camerata poster with yellow lettering over colorful lights
+  location: Shadyside Presbyterian Church
+  address: 5121 Westminster Pl, Pittsburgh, PA 15232
+  date: December 13th, 2026
+  time: 3pm ET
+
+- title: "Pittsburgh Camerata: Carols and Cocktails"
+  category: upcoming
+  season: "2026-27"
+  url: https://pittsburghcamerata.org/event/carols-and-cocktails-2026/
+  image: assets/music/images/carols-and-cocktails-2026.jpg
+  image_alt: Colorful light trails, artwork for Carols and Cocktails with the Camerata
+  location: Private residence in Shadyside, Pittsburgh
+  address: Provided with registration receipt
+  date: December 18th, 2026
+  time: 5:30pm ET
+
+- title: "Pittsburgh Camerata: Carols and Cocktails"
+  category: upcoming
+  season: "2026-27"
+  url: https://pittsburghcamerata.org/event/carols-and-cocktails-2026/
+  image: assets/music/images/carols-and-cocktails-2026.jpg
+  image_alt: Colorful light trails, artwork for Carols and Cocktails with the Camerata
+  location: Private residence in Shadyside, Pittsburgh
+  address: Provided with registration receipt
+  date: December 20th, 2026
+  time: 4pm ET
+
+- title: "Bach: St. Matthew Passion"
+  category: upcoming
+  season: "2026-27"
+  url: https://www.shadysidepres.org/music/music-great-space/2026-2027-migs/
+  image: assets/music/images/bach.jpg
+  image_alt: Portrait of Johann Sebastian Bach by Elias Gottlob Haussmann
+  performers: Pittsburgh Camerata, Seton Hill University Choir, and University of Pittsburgh Greensburg Choir
+  location: Seton Hill University
+  date: March 20th, 2027
+  time: 3pm ET
+
+- title: "Bach: St. Matthew Passion"
+  category: upcoming
+  season: "2026-27"
+  url: https://www.shadysidepres.org/music/music-great-space/2026-2027-migs/
+  image: assets/music/images/bach.jpg
+  image_alt: Portrait of Johann Sebastian Bach by Elias Gottlob Haussmann
+  performers: Pittsburgh Camerata, Seton Hill University Choir, and University of Pittsburgh Greensburg Choir
+  location: Shadyside Presbyterian Church
+  address: 5121 Westminster Pl, Pittsburgh, PA 15232
+  date: March 21st, 2027
+  time: 3pm ET
+
+- title: "Pittsburgh Camerata: Welcome to Summer"
+  category: upcoming
+  season: "2026-27"
+  url: https://www.shadysidepres.org/music/music-great-space/2026-2027-migs/
+  image: assets/music/images/pittsburgh-camerata-logo.svg
+  image_alt: Pittsburgh Camerata logo
+  location: Shadyside Presbyterian Church
+  address: 5121 Westminster Pl, Pittsburgh, PA 15232
+  date: June 2nd, 2027
+  time: 7pm ET
+
+- title: "Music at St. Michael: Duruflé Requiem"
+  category: past
+  season: "2026-27"
+  url: https://smamusic.org/musicasacra/
+  image: assets/music/images/durufle-requiem.jpg
+  image_alt: Maurice Duruflé at the organ
+  location: St. Bernard Church
+  address: 311 Washington Rd, Pittsburgh, PA 15216
+  date: November 6th, 2026
+  time: 7pm ET
+
+- title: "Pittsburgh Oratory: All Souls' Day"
+  category: past
+  season: "2026-27"
+  url: https://pittsburghoratory.org/music
+  image: assets/music/images/heinz-memorial-chapel.jpg
+  image_alt: Chancel and stained-glass windows of Heinz Memorial Chapel
+  location: Heinz Memorial Chapel
+  address: S Bellefield Ave, Pittsburgh, PA 15213
+  date: November 2nd, 2026
+  time: 9pm ET
+
+- title: "Pittsburgh Oratory: All Saints' Day"
+  category: past
+  season: "2026-27"
+  url: https://pittsburghoratory.org/music
+  image: assets/music/images/heinz-memorial-chapel.jpg
+  image_alt: Chancel and stained-glass windows of Heinz Memorial Chapel
+  location: Heinz Memorial Chapel
+  address: S Bellefield Ave, Pittsburgh, PA 15213
+  date: November 1st, 2026
+  time: 11am ET
+
+- title: "Pittsburgh Oratory: Feast of St. John Henry Newman"
+  category: past
+  season: "2026-27"
+  url: https://pittsburghoratory.org/music
+  image: assets/music/images/pittsburgh-oratory.jpg
+  image_alt: Interior of the Pittsburgh Oratory chapel
+  location: Pittsburgh Oratory
+  address: 4450 Bayard St, Pittsburgh, PA 15213
+  date: October 9th, 2026
+  time: 5:15pm ET
+
+- title: "Pittsburgh Camerata: Lions and Tygres and the Birds and the Bzzzz"
+  category: past
+  season: "2026-27"
+  url: https://pittsburghcamerata.org/event/lions-and-tygres-and-the-birds-and-the-bzzzz/
+  image: assets/music/images/lions-and-tygres.jpg
+  image_alt: Lions and Tygers and the Birds and the Bzzzz concert poster with a hummingbird above an orange flower
+  location: Shadyside Presbyterian Church
+  address: 5121 Westminster Pl, Pittsburgh, PA 15232
+  date: September 13th, 2026
+  time: 3pm ET
+
+- title: "The Consort Project: When the Stars Align"
+  category: past
+  season: "2025-26"
   url: https://www.eventbrite.ca/e/sing-the-north-the-consort-project-tickets-1991236766772?aff=odcleoeventsincollection
   image: assets/music/images/consort.webp
   image_alt: When the Stars Align concert poster
   location: St Andrew's Presbyterian Church
   address: 680 Courtney St, Victoria, BC, Canada
   date: August 2nd, 2026
-  time: 7:30pm ET
+  time: 7:30pm PT
 
 - title: "Pittsburgh Camerata: Welcome to Summer"
   category: past
+  season: "2025-26"
   url: https://pittsburghcamerata.org/event/music-of-the-americas/
   image: assets/music/images/welcome-to-summer.jpg
   image_alt: Welcome to Summer concert poster
@@ -20,6 +166,7 @@
 
 - title: "Pittsburgh Camerata: Music of the Americas"
   category: past
+  season: "2025-26"
   image: assets/music/images/music-of-the-americas-2.jpg
   image_alt: Music of the Americas 2 concert poster
   location: Calvary Presbyterian Church
@@ -29,6 +176,7 @@
 
 - title: "Pittsburgh Camerata: Music of the Americas"
   category: past
+  season: "2025-26"
   url: https://pittsburghcamerata.org/event/music-of-the-americas/
   image: assets/music/images/music-of-the-americas.jpg
   image_alt: Music of the Americas concert poster
@@ -39,6 +187,7 @@
 
 - title: "Pitt Day of Giving Concert"
   category: past
+  season: "2025-26"
   url: https://calendar.pitt.edu/event/pitt-day-of-giving-concert-at-heinz-memorial-chapel
   image: assets/music/images/organ.jpeg
   image_alt: Pitt Day of Giving Concert poster
@@ -49,6 +198,7 @@
 
 # - title: A Festival of Lessons and Carols
 #   category: past
+#   season: "2025-26"
 #   url: https://reginacoeliparish.org/events/advent-lessons-carols
 #   image: assets/music/images/lessons-and-carols-2025.jpeg
 #   image_alt: A Festival of Lessons and Carols poster
@@ -59,6 +209,7 @@
 
 - title: "Pittsburgh Camerata: Christmas with the Camerata"
   category: past
+  season: "2025-26"
   url: https://pittsburghcamerata.org/event/christmas-with-the-camerata/
   image: assets/music/images/christmas.png
   image_alt: Pittsburgh Camerata concert poster
@@ -69,6 +220,7 @@
 
 - title: "Pittsburgh Camerata: Christmas with the Camerata"
   category: past
+  season: "2025-26"
   url: https://pittsburghcamerata.org/event/christmas-with-the-camerata-2025/
   image: assets/music/images/christmas.png
   image_alt: Pittsburgh Camerata concert poster
@@ -79,6 +231,7 @@
 
 - title: "Pittsburgh Camerata: Camerata Cabaret"
   category: past
+  season: "2025-26"
   url: https://pittsburghcamerata.org/events/
   image: assets/music/images/cabaret.png
   image_alt: Pittsburgh Camerata concert poster
@@ -89,6 +242,7 @@
 
 - title: "Handel and Haydn Society: Saul"
   category: past
+  season: "2025-26"
   url: https://handelandhaydn.org/concerts/2025-26-season/saul/
   image: assets/music/images/saul.jpg
   image_alt: Handel and Haydn Society concert poster
@@ -99,6 +253,7 @@
 
 - title: "Handel and Haydn Society: Saul"
   category: past
+  season: "2025-26"
   url: https://handelandhaydn.org/concerts/2025-26-season/saul/
   image: assets/music/images/saul.jpg
   image_alt: Handel and Haydn Society concert poster
@@ -109,6 +264,7 @@
 
 - title: Marsh Chapel Choir Alumni Reunion Concert
   category: past
+  season: "2025-26"
   url: https://www.facebook.com/events/735-commonwealth-avenue-boston-ma-united-states-massachusetts-02215/how-can-i-keep-from-singing-marsh-chapel-choir-reunion-concert/1332535558452085/
   image: assets/music/images/marsh.jpg
   image_alt: Marsh Chapel Choir Reunion Concert poster
